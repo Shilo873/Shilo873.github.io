@@ -65,6 +65,19 @@ a.text-primary {
   a.text-primary:hover {
     color: #0389ff !important; }
 
+.pdf {
+      width: 100%;
+      aspect-ratio: 4 / 3;
+    }
+
+.pdf,
+html,
+body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
 h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   font-family: "Montserrat", sans-serif;
   color: #dddde6; }
